@@ -1,0 +1,32 @@
+
+---------------general.py----------------------------------------------
+create a directory for every site we scan
+'top level domain' of 'http://thenewboston.com/' is  'thenewboston.com'
+---------------domain_name.py-------------------------------------------
+gettin the domain name
+
+
+---------------ip_address.py----------------------------------------------
+cozzz 'host thenewboston.com' ==> 'thenewboston.com has address 54.186.250.79'
+===>>  we have to extract the ip
+os.popen==> execute the command in a new process in os
+then
+---------------nmap.py-----------------------------------------------------
+
+# nmap :
+# tool allow us to scan servers
+# and find out what processes are running and what ports are open
+# nmap -F 54.186.250.79  # but it's illegal !!! you can't just onder around scanning people's websites !!
+# ====>-F => don't scan all the ports, just the most commun ones
+
+--------------robots_txt.py-----------------------------------------------
+robots.txt : list files that you don't want search engines to  crawl..
+really !! -_-
+
+--------------whois.py-----------------------------------------------------
+whois ==> give us info about who registred the domain name, who they registred through, phone, address
+==> you wanna buy domain privacy if you're registering a domain name
+
+--------------main.py-------------------------------------------------------
+running it 
+
